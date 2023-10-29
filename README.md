@@ -1,2 +1,2 @@
-# sarang.games
+# Sarang Games
 Sarang Games Website
