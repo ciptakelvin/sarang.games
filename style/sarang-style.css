@@ -10,6 +10,11 @@
 body{
     background-color: #1a1a1a;
 }
+#fixed-banner{
+    background: url("../img/white-room.jpg") fixed;
+    height: 200px;
+    margin-top: 500px;
+}
 #circular{
     border: 2px  dashed white;
     border-radius: 50%;
@@ -21,9 +26,10 @@ body{
 }
 #home-content{
     position: absolute;
-    top: 100vh;
+    top: 110vh;
     left: 200px;
     display: flex;
+    flex-wrap: wrap;
 }
 .black-card{
     background-color: black;
@@ -32,7 +38,13 @@ body{
     max-width: 500px;
     transition: 0.3s;
 }
-
+#title{
+    position: fixed;
+    top: 50px;
+    left: 150px;
+    font-size: 40px;
+    z-index: 1;
+}
 #home-content h1{
     font-size: 50px;
 }
@@ -46,18 +58,18 @@ body{
 }
 #home-logo{
     height: 50px;
-    top: 50px;
+    padding: 50px 10px 10px 10px;
     left: 50px;
     position: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 #menu{
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.6);
     position: fixed;
     top: 50px;
-    right: 50px;
+    right: 0px;
     width: 400px;
     padding: 20px;
-    border-radius: 40px;
 }
 #menu li{
     display: inline;
