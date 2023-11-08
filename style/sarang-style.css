@@ -8,16 +8,47 @@
     
 }
 body{
+    background-color: #1a1a1a;
+}
+#circular{
+    border: 2px  dashed white;
+    border-radius: 50%;
+    height: 110vh;
+    width: 110vh;
+    top: -150px;
+    left: -50vh;
+    position: absolute;
+}
+#home-content{
+    position: absolute;
+    top: 100vh;
+    left: 200px;
+    display: flex;
+}
+.black-card{
     background-color: black;
+    padding: 50px;
+    margin: 20px;
+    max-width: 500px;
+    transition: 0.3s;
+}
+
+#home-content h1{
+    font-size: 50px;
+}
+#home-content img{
+    height: 200px;
 }
 #home-header{
-    background: url("../img/header.webp");
+    background: url("../img/header.webp") fixed;
     background-repeat: no-repeat;
     min-height: 100vh;
 }
 #home-logo{
     height: 50px;
-    margin: 50px;
+    top: 50px;
+    left: 50px;
+    position: fixed;
 }
 #menu{
     background-color: rgba(0, 0, 0, 0.2);
