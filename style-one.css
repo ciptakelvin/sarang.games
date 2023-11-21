@@ -1,0 +1,85 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+
+header {
+    background-image: url('/img/white-room.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 500px;
+    padding-bottom: 20px;
+}
+
+body {
+    background-color: #2a2a3a;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 50px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 25px;
+    line-height: 40px;
+}
+
+#menu {
+    margin-left: 50px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#menu a:hover {
+    color: tomato;
+}
+
+#menu ul {
+    list-style-type: none;
+    display: flex;
+
+}
+
+#menu li {
+    padding: 50px 20px 20px 20px;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #1a1a2a;
+    padding: 50px;
+}
+
+footer li {
+    list-style-type: none;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: tomato;
+}
+
+.current {
+    background-color: #1a1a2a;
+}
